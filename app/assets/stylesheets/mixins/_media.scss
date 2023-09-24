@@ -1,0 +1,5 @@
+@mixin media($query) {
+        @if $query == tabletAddUp {
+            @media (min-width: 50rem) { @content; }
+        }
+}
